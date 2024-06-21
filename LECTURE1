@@ -1,0 +1,60 @@
+### Procedural Programming vs. Object-Oriented Programming
+
+**Procedural Programming:**
+1. **Definition:**
+   - A paradigm based on procedures or routines, where tasks are broken down into a series of sequential steps.
+
+2. **Key Concepts:**
+   - **Procedures/Functions:** Core components that encapsulate a series of statements to perform tasks.
+   - **Modularity:** Organizes code into functions, making it easier to manage.
+   - **Top-Down Approach:** Emphasizes breaking down a task into smaller, manageable procedures.
+   - **Global State:** Variables are often shared across procedures.
+
+3. **Advantages:**
+   - Simplicity and ease of understanding.
+   - Efficient in terms of system resources.
+   - Well-suited for straightforward, small to medium-sized programs.
+
+4. **Disadvantages:**
+   - Challenging to scale for larger programs.
+   - Poor data encapsulation.
+   - Difficult to map to real-world scenarios.
+
+**Object-Oriented Programming (OOP):**
+1. **Definition:**
+   - A paradigm based on objects, which contain both data (attributes) and behaviors (methods).
+
+2. **Key Concepts:**
+   - **Classes and Objects:** Classes define blueprints for objects, which are instances of classes.
+   - **Encapsulation:** Bundles data and methods within a class, restricting direct access to some of the object's components.
+   - **Inheritance:** Enables new classes to inherit properties and methods from existing ones.
+   - **Polymorphism:** Allows objects to be treated as instances of their parent class rather than their actual class.
+   - **Abstraction:** Simplifies complex systems by modeling classes based on the essential features.
+
+3. **Advantages:**
+   - Enhanced modularity and code reuse through classes and inheritance.
+   - Better data encapsulation and abstraction.
+   - Facilitates maintenance and scalability for large systems.
+   - Aligns closely with real-world entities.
+
+4. **Disadvantages:**
+   - Steeper learning curve.
+   - Potential for over-engineering with excessive use of classes.
+   - Can be less efficient in terms of performance compared to procedural programming.
+
+### Summary:
+
+- **Procedural Programming** is ideal for simple, linear task-oriented programs, emphasizing functions and procedures.
+- **Object-Oriented Programming** is better suited for complex systems requiring modularity, reusability, and a close representation of real-world entities through objects and classes.
+Objects and Classes in Java 
+---------------------------
+objects-->
+An entity that has state and behavior is known as an object e.g., chair, bike, marker, pen, table, car, etc. It can be physical or logical (tangible and intangible). The example of an intangible object is the banking system.
+class->
+A class is a group of objects which have common properties. It is a template or blueprint from which objects are created. It is a logical entity. It can't be physical.
+A class in Java can contain:
+    ->Fields
+    ->Methods
+    ->Constructors
+    ->Blocks
+    ->Nested class and interface
