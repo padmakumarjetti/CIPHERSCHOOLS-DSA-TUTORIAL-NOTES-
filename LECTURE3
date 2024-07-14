@@ -1,0 +1,16 @@
+"GIT and GitHub"
+Commands for Git
+------------———— -->Git configuration
+Run git config –global user.name "[name]" to use it.  
+git config –global user.email "[email address]" is how it is used.  
+This command configures your commits to use the specified author name and email address, accordingly.
+-->git init Use: git init [name of repository]
+One uses this command to launch a fresh repository.
+-->git add git add [file] is the usage  
+A file is appended to the staging area by this command.
+-->git commit
+To use, type git commit -m "[Enter the commit message]".  
+This command creates a permanent snapshot or record of the file in the version history.
+
+Utilization of git status  
+All of the files that need to be committed are listed by this command.
